@@ -19,6 +19,16 @@ console.log(Assets);
 var Qualification:undefined=undefined;
 console.log(Qualification);
 
+// Example of symbol
+var id:symbol=Symbol("id");
+console.log(id.description);
+
+// Example of bigint
+var salary:bigint=10n;
+console.log(salary);
+
+
+
 
 
 
